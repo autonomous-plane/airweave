@@ -26,7 +26,7 @@
 
 ## Containers
 
-Quick way to run the frontend: docker run -it --rm -p 8080:8080 autonomousplane/airweave-frontend:latest
+Quick way to run the frontend: `docker run -it --rm -p 8080:8080 autonomousplane/airweave-frontend:latest`
 
 Existing container image in the DockerHub registry: `https://hub.docker.com/r/autonomousplane/airweave-frontend` (get it with `docker pull autonomousplane/airweave-frontend`)
 
