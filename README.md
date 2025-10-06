@@ -24,6 +24,14 @@
 
 </div>
 
+## Containers
+
+Quick way to run the frontend: docker run -it --rm -p 8080:8080 autonomousplane/airweave-frontend:latest
+
+Existing container image in the DockerHub registry: `https://hub.docker.com/r/autonomousplane/airweave-frontend` (get it with `docker pull autonomousplane/airweave-frontend`)
+
+Full deployment with `docker-compose` is described in the `Self-hosted` section.
+
 ## Overview
 
 **Airweave is a tool that lets agents search any app.** It connects to apps, productivity tools, databases, or document stores and transforms their contents into searchable knowledge bases, accessible through a standardized interface for agents.
@@ -35,14 +43,6 @@ The search interface is exposed via REST API or MCP. When using MCP, Airweave es
 <video width="100%" src="https://github.com/user-attachments/assets/995e4a36-3f88-4d8e-b401-6ca43db0c7bf" controls></video>
 
 [**🔗 Example notebooks**](https://github.com/airweave-ai/airweave/tree/main/examples)
-
-### Containers
-
-Quick way to run the frontend: docker run -it --rm -p 8080:8080 autonomousplane/airweave-frontend:latest
-
-Existing container image in the DockerHub registry: `https://hub.docker.com/r/autonomousplane/airweave-frontend` (get it with `docker pull autonomousplane/airweave-frontend`)
-
-Full deployment with `docker-compose` is described in the `Self-hosted` section.
 
 ## Table of Contents
 
